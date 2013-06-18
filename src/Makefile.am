@@ -1394,6 +1394,7 @@ endif
 BUILT_SOURCES += $(dist_man_MANS)
 
 dist_man_MANS = collectd.1 \
+		collectd-cbugzilla.5 \
 		collectd.conf.5 \
 		collectd-email.5 \
 		collectd-exec.5 \
@@ -1414,6 +1415,7 @@ dist_man_MANS = collectd.1 \
 EXTRA_DIST = types.db
 
 EXTRA_DIST +=   collectd.conf.pod \
+		collectd-cbugzilla.pod \
 		collectd-email.pod \
 		collectd-exec.pod \
 		collectdctl.pod \
